@@ -22,7 +22,10 @@
 				<key id="since_id" type="xs:string" paramType="query" required="false"/>
 				<key id="max_id" type="xs:string" paramType="query" required="false"/>
 				<key id="show_user" type="xs:string" paramType="query" required="false" default="false"/>
-				
+				<key id="result_type" type="xs:string" paramType="query" required="false"/>
+				<key id="show_user" type="xs:string" paramType="query" required="false"/>
+				<key id="until" type="xs:string" paramType="query" required="false"/>
+				<key id="callback" type="xs:string" paramType="query" required="false"/>
 				<key id="format" type="xs:string" paramType="path" default="json" private="true"/>
 			</inputs>
 		</select>
